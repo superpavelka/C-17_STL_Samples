@@ -6,9 +6,9 @@
 #include <set>
 #include <cassert>
 
-// Выражения свертки
-// левая свертка 1 + (2 + (3 + (4 + 5)))
-//правая свертка  (((1 + 2) + 3) + 4) + 5)
+// Р’С‹СЂР°Р¶РµРЅРёСЏ СЃРІРµСЂС‚РєРё
+// Р»РµРІР°СЏ СЃРІРµСЂС‚РєР° 1 + (2 + (3 + (4 + 5)))
+//РїСЂР°РІР°СЏ СЃРІРµСЂС‚РєР°  (((1 + 2) + 3) + 4) + 5)
 
 // C++11 style recursive sum function
 template <typename T>
@@ -23,14 +23,14 @@ auto sum_rec(T t, Ts ... ts)
 	return t + sum_rec(ts...);
 }
 
-// выражение свертки в стиле C++17
+// РІС‹СЂР°Р¶РµРЅРёРµ СЃРІРµСЂС‚РєРё РІ СЃС‚РёР»Рµ C++17
 template <typename ... Ts>
 auto sum(Ts ... ts)
 {
 	return (0 + ... + ts);
 }
 
-// выражение свертки в стиле C++17 в обобщенном виде со специализациями для string и char
+// РІС‹СЂР°Р¶РµРЅРёРµ СЃРІРµСЂС‚РєРё РІ СЃС‚РёР»Рµ C++17 РІ РѕР±РѕР±С‰РµРЅРЅРѕРј РІРёРґРµ СЃРѕ СЃРїРµС†РёР°Р»РёР·Р°С†РёСЏРјРё РґР»СЏ string Рё char
 template <typename ... Ts>
 auto sum_generic(Ts ... ts)
 {
@@ -70,7 +70,7 @@ bool within(T min, T max, Ts ...ts)
 template <typename C, typename ... Ts>
 auto matches(const C& a, Ts ... ts)
 {
-	// std::count считает количество вхождений ts в вектор a
+	// std::count СЃС‡РёС‚Р°РµС‚ РєРѕР»РёС‡РµСЃС‚РІРѕ РІС…РѕР¶РґРµРЅРёР№ ts РІ РІРµРєС‚РѕСЂ a
 	return (std::count(std::begin(a), std::end(a), ts) + ...);
 }
 

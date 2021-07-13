@@ -3,8 +3,8 @@
 #include <map>
 #include <string>
 
-// if и switch инициализаторы
-// позволяют уменьшить область видимости переменной
+// if Рё switch РёРЅРёС†РёР°Р»РёР·Р°С‚РѕСЂС‹
+// РїРѕР·РІРѕР»СЏСЋС‚ СѓРјРµРЅСЊС€РёС‚СЊ РѕР±Р»Р°СЃС‚СЊ РІРёРґРёРјРѕСЃС‚Рё РїРµСЂРµРјРµРЅРЅРѕР№
 
 template <typename T>
 void print_charcount_cpp11(const T &map, char c)
@@ -12,15 +12,15 @@ void print_charcount_cpp11(const T &map, char c)
 	const auto itr(map.find(c));
 	if (itr != map.end()) 
 	{
-		// *itr корректен, сделаем что-нибудь
+		// *itr РєРѕСЂСЂРµРєС‚РµРЅ, СЃРґРµР»Р°РµРј С‡С‚Рѕ-РЅРёР±СѓРґСЊ
 		std::cout << "There are " << itr->second << " " << c << " characters." << "\n";
 	}
 	else 
 	{
-		// itr доступен и указывает за пределы структуры, не разыменовывать
+		// itr РґРѕСЃС‚СѓРїРµРЅ Рё СѓРєР°Р·С‹РІР°РµС‚ Р·Р° РїСЂРµРґРµР»С‹ СЃС‚СЂСѓРєС‚СѓСЂС‹, РЅРµ СЂР°Р·С‹РјРµРЅРѕРІС‹РІР°С‚СЊ
 		std::cout << "There are " << 0 << " " << c << " characters." << "\n";
 	}
-	// itr все еще доступен
+	// itr РІСЃРµ РµС‰Рµ РґРѕСЃС‚СѓРїРµРЅ
 }
 
 template <typename T>
@@ -33,7 +33,7 @@ void print_charcount_cpp17(const T &map, char c)
 	else {
 		std::cout << "There are " << 0 << " " << c << " characters." << "\n";
 	}
-	// itr недоступен
+	// itr РЅРµРґРѕСЃС‚СѓРїРµРЅ
 }
 
 int main()
@@ -59,6 +59,6 @@ int main()
 		default:
 			std::cout << "You entered something else: " << c << "\n";
 		}
-		// тут с недоступна
+		// С‚СѓС‚ СЃ РЅРµРґРѕСЃС‚СѓРїРЅР°
 	}
 }
