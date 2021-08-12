@@ -16,4 +16,5 @@
 ### 2.3 [Доступ к экземплярам std::vector быстрым или безопасным способом([] или at)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Vector_access_fast_or_safe/Vector_access_fast_or_safe.cpp)
 ### 2.4 [Сохранение сортировки std::vector при вставке элементов(std::lower_bound)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Keep_vector_sorted/Keep_vector_sorted.cpp)
 ### 2.5 [Вставка в std::map без лишнего создания объекта при наличии ключа(try_emplace)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Efficient_insert_or_reassign_to_map/Chapter02-Efficient_insert_or_reassign_to_map.cpp)
+### 2.5 [Новая семантика подсказок для вставки элементов в std::map за амортизированное O(1)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Map_insertion_hint/Map_insertion_hint.cpp)
 
