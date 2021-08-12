@@ -17,4 +17,7 @@
 ### 2.4 [Сохранение сортировки std::vector при вставке элементов(std::lower_bound)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Keep_vector_sorted/Keep_vector_sorted.cpp)
 ### 2.5 [Вставка в std::map без лишнего создания объекта при наличии ключа(try_emplace)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Efficient_insert_or_reassign_to_map/Chapter02-Efficient_insert_or_reassign_to_map.cpp)
 ### 2.6 [Новая семантика подсказок для вставки элементов в std::map за амортизированное O(1)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Map_insertion_hint/Map_insertion_hint.cpp)
+### 2.7 [Эффективное изменение ключей std::map(без перевыделения памяти, extract, новая перегруженная версия insert для ключей)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Mapnode_key_modification/Mapnode_key_modification.cpp)
+### 2.8 [Применение unordered_map для пользовательских типов ключей (пользовательская версия std::hash)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Custom_type_unordered_map/Custom_type_unordered_map.cpp)
+### 2.9 [Пример использования std::set для фильтрации уникальных элементов в потоке ввода(пример вывода std::copy + std::inserter, пример ввода std::istream_iterator](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Filter_unique_user_input/Filter_unique_user_input.cpp)
 
