@@ -21,4 +21,5 @@
 ### 2.8 [Применение unordered_map для пользовательских типов ключей (пользовательская версия std::hash)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Custom_type_unordered_map/Custom_type_unordered_map.cpp)
 ### 2.9 [Пример использования std::set для фильтрации уникальных элементов в потоке ввода(пример вывода std::copy + std::inserter, пример ввода std::istream_iterator)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Filter_unique_user_input/Filter_unique_user_input.cpp)
 ### 2.10 [Реализация ОПН калькулятора (реализация через std::stack, ввод через std::stringstream)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Rpn_calculator_impl_with_stack/Rpn_calculator_impl_with_stack.cpp)
+### 2.11 [Подсчет частоты встречаемости слов через std::map (вывод в порядке частоты реализован через std::vector, std::move, std::back_inserter)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Word_frequency_counter_impl_map/Word_frequency_counter_impl_map.cpp)
 
