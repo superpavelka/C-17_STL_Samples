@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter02-Custom_type_unord
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter02-Filter_unique_user_input", "Chapter02-Filter_unique_user_input\Chapter02-Filter_unique_user_input.vcxproj", "{89C7D380-89FB-406E-9122-9B6E9C5D9700}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter02-Rpn_calculator_impl_with_stack", "Chapter02-Rpn_calculator_impl_with_stack\Chapter02-Rpn_calculator_impl_with_stack.vcxproj", "{E72A58CA-860E-4881-8345-C2650E7A6D79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{89C7D380-89FB-406E-9122-9B6E9C5D9700}.Release|x64.Build.0 = Release|x64
 		{89C7D380-89FB-406E-9122-9B6E9C5D9700}.Release|x86.ActiveCfg = Release|Win32
 		{89C7D380-89FB-406E-9122-9B6E9C5D9700}.Release|x86.Build.0 = Release|Win32
+		{E72A58CA-860E-4881-8345-C2650E7A6D79}.Debug|x64.ActiveCfg = Debug|x64
+		{E72A58CA-860E-4881-8345-C2650E7A6D79}.Debug|x64.Build.0 = Debug|x64
+		{E72A58CA-860E-4881-8345-C2650E7A6D79}.Debug|x86.ActiveCfg = Debug|Win32
+		{E72A58CA-860E-4881-8345-C2650E7A6D79}.Debug|x86.Build.0 = Debug|Win32
+		{E72A58CA-860E-4881-8345-C2650E7A6D79}.Release|x64.ActiveCfg = Release|x64
+		{E72A58CA-860E-4881-8345-C2650E7A6D79}.Release|x64.Build.0 = Release|x64
+		{E72A58CA-860E-4881-8345-C2650E7A6D79}.Release|x86.ActiveCfg = Release|Win32
+		{E72A58CA-860E-4881-8345-C2650E7A6D79}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
