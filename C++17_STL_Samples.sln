@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter03-Own_iterable_rang
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter03-Making_iterators_stl_compatible", "Chapter03-Making_iterators_stl_compatible\Chapter03-Making_iterators_stl_compatible.vcxproj", "{661D3C92-FC8B-4804-BAA9-266773EB924F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter03-Iterator_wrapper", "Chapter03-Iterator_wrapper\Chapter03-Iterator_wrapper.vcxproj", "{DF5405D8-CACF-4B23-AD82-CCB462E20277}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{661D3C92-FC8B-4804-BAA9-266773EB924F}.Release|x64.Build.0 = Release|x64
 		{661D3C92-FC8B-4804-BAA9-266773EB924F}.Release|x86.ActiveCfg = Release|Win32
 		{661D3C92-FC8B-4804-BAA9-266773EB924F}.Release|x86.Build.0 = Release|Win32
+		{DF5405D8-CACF-4B23-AD82-CCB462E20277}.Debug|x64.ActiveCfg = Debug|x64
+		{DF5405D8-CACF-4B23-AD82-CCB462E20277}.Debug|x64.Build.0 = Debug|x64
+		{DF5405D8-CACF-4B23-AD82-CCB462E20277}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF5405D8-CACF-4B23-AD82-CCB462E20277}.Debug|x86.Build.0 = Debug|Win32
+		{DF5405D8-CACF-4B23-AD82-CCB462E20277}.Release|x64.ActiveCfg = Release|x64
+		{DF5405D8-CACF-4B23-AD82-CCB462E20277}.Release|x64.Build.0 = Release|x64
+		{DF5405D8-CACF-4B23-AD82-CCB462E20277}.Release|x86.ActiveCfg = Release|Win32
+		{DF5405D8-CACF-4B23-AD82-CCB462E20277}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
