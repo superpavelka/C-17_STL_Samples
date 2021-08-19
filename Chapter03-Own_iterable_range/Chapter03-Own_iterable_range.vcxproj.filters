@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Personal_organiser_priority_queue.cpp">
+    <ClCompile Include="Own_iterable_range.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{DC381100-CE02-45B6-A59B-A85549B78723}</ProjectGuid>
-    <RootNamespace>Chapter02Personalorganiserpriorityqueue</RootNamespace>
+    <ProjectGuid>{12A0C737-9C87-4C02-8583-C198F7D53168}</ProjectGuid>
+    <RootNamespace>Chapter03Owniterablerange</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Personal_organiser_priority_queue.cpp" />
+    <ClCompile Include="Own_iterable_range.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
