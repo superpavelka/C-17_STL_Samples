@@ -24,3 +24,6 @@
 ### 2.11 [Подсчет частоты встречаемости слов через std::map (фильтр от ненужных символов с помощью std::find_first_not_of, std::find_last_not_of, вывод в порядке частоты реализован через std::vector, std::move, std::back_inserter)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Word_frequency_counter_impl_map/Word_frequency_counter_impl_map.cpp)
 ### 2.12 [Разбиение текста на предложения, подсчет количества слов в предложениях (реализация через std::multimap, итерация через std::next, std::distance, std::find, вставка в контейнер через std::emplace, std::move)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Sentence_length_multimap/Sentence_length_multimap.cpp)
 ### 2.13 [Реализация списка личных дел через std::priority_queue](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter02-Personal_organiser_priority_queue/Personal_organiser_priority_queue.cpp)
+### 3. Итераторы
+### 3.1 [Создание собственного итерабельного диапазона данных](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter03-Own_iterable_range/Own_iterable_range.cpp)
+### 3.2 [Реализация совместимости собственного итератора с категориями итераторов STL (std::iterator_traits)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter03-Making_iterators_stl_compatible/Making_iterators_stl_compatible.cpp)
