@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{FE826331-BA6F-4D45-98CF-86024B794483}</ProjectGuid>
-    <RootNamespace>Chapter03Iteratorsentinel</RootNamespace>
+    <ProjectGuid>{0F7F9D17-9192-4109-B805-60D155479CE7}</ProjectGuid>
+    <RootNamespace>Chapter03Zipiterator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Iterator_sentinel.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
