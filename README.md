@@ -35,3 +35,4 @@
 ### 4. Лямбда-выражения
 ### 4.1 [Динамическое определение функций с помощью лямбда выражений (примеры создания лямбда функций)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Functions_on_runtime/Functions_on_runtime.cpp)
 ### 4.2 [Реализация полиморфизма путем оборачивания лямбда-выражений в std::function](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Std_function/Std_function.cpp)
+### 4.3 [Конкатенация лямбда функций (pipeline) (содержит пример использования if constexpr (sizeof...(ts) > 0), std::plus)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Lambda_concatenation/Lambda_concatenation.cpp)
