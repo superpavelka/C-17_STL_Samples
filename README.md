@@ -34,3 +34,4 @@
 ### 3.7 [Создание собственного адаптера для итераторов-упаковщиков (итератор по функционалу схожий с функцией zip в Python, Haskell)(пример создания собственного итератора по двум векторам, сложение с помощью std::accumulate, решение аналогичной задачи нахождения скалярного произведения через std::valarray, ссылка на библиотеку ranges с различными адаптерами и итераторами)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter03-Zip_iterator/Zip_iterator.cpp)
 ### 4. Лямбда-выражения
 ### 4.1 [Динамическое определение функций с помощью лямбда выражений (примеры создания лямбда функций)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Functions_on_runtime/Functions_on_runtime.cpp)
+### 4.2 [Реализация полиморфизма путем оборачивания лямбда-выражений в std::function](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Std_function/Std_function.cpp)
