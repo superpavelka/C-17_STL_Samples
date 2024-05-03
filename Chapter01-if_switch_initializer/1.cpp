@@ -30,7 +30,8 @@ void print_charcount_cpp17(const T &map, char c)
 	{
 		std::cout << "There are " << itr->second << " " << c << " characters." << "\n";
 	}
-	else {
+	else 
+	{
 		std::cout << "There are " << 0 << " " << c << " characters." << "\n";
 	}
 	// itr недоступен

@@ -64,7 +64,7 @@ int main()
 	{ // C++17 использование распаковки в цикле
 
 		std::map<std::string, size_t> animal_population{
-			{ "humans",   7000000000 },
+		{ "humans",   7000000000 },
 		{ "chickens", 17863376000 },
 		{ "camels",   24246291 },
 		{ "sheep",    1086881528 }

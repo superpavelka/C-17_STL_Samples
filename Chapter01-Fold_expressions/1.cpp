@@ -34,11 +34,11 @@ auto sum(Ts ... ts)
 template <typename ... Ts>
 auto sum_generic(Ts ... ts)
 {
-	if constexpr ((std::is_same<Ts, const char*>::value&& ...)) {
+	if constexpr ((std::is_same<Ts, const char*>::value && ...)) {
 		// Works with const char* parameters
 		return (std::string{} +... + std::string{ ts });
 	}
-	else if constexpr ((std::is_same<Ts, std::string>::value&& ...)) {
+	else if constexpr ((std::is_same<Ts, std::string>::value && ...)) {
 		// Works with std::string parameters
 		return (std::string{} +... + ts);
 	}

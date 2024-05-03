@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="if_constexpr.cpp">
+    <ClCompile Include="1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

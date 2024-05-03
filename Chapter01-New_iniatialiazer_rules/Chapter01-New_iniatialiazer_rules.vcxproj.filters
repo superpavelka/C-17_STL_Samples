@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="New_iniatialiazer_rules.cpp">
+    <ClCompile Include="1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

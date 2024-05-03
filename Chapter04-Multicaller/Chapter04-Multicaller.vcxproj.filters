@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Chapter02-Efficient_insert_or_reassign_to_map.cpp">
+    <ClCompile Include="multicaller.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
