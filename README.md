@@ -37,5 +37,5 @@
 ### 4.2 [Реализация полиморфизма путем оборачивания лямбда-выражений в std::function](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Std_function/Std_function.cpp)
 ### 4.3 [Конкатенация лямбда функций (pipeline) (содержит пример использования if constexpr (sizeof...(ts) > 0), std::plus)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Lambda_concatenation/Lambda_concatenation.cpp)
 ### 4.4 [Создание комбинированных предикатов через лямбда функции (для комбинирования используется std::logical_and, для вывода std::copy_if + std::istream_iterator, std::ostream_iterator )](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Combination_of_predicates/Combination_of_predicates.cpp)
-### 4.5 [Последовательный вызов нескольких лямбда функций через единую функцию] (https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Multicaller/multicaller.cpp)
-### 4.6 [Реализация transform_if через std::accumulate и вложенные лямбда функции] (https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Transform_if/transform_if.cpp)
+### 4.5 [Последовательный вызов нескольких лямбда функций через единую функцию](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Multicaller/multicaller.cpp)
+### 4.6 [Реализация transform_if через std::accumulate и вложенные лямбда функции](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Transform_if/transform_if.cpp)
