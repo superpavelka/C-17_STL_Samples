@@ -43,3 +43,6 @@
 ### 5. Основы работы с алгоритмами STL
 ### 5.1 [Разбор различных вариантов алгоритма std::copy(std::copy, std::copy_n, std::move, вывод через copy+ostream_iterator)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter05-Copying_items/copying_items.cpp)
 ### 5.2 [Сортировки контейнеров(std::sort, std::is_sorted, std::shuffle, std::partial_sort, std::partition, std::random_device, std::mt19937)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter05-Sorting_containers/sorting_containers.cpp)
+### 5.3 [Удаление конкретных элементов из контейнеров(std::remove, std::remove_if, std::replace, std::remove_copy, std::remove_copy_if, std::replace_copy, std::copy_if, std::erase)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter05-Removing_items_from_containers/removing_items_from_containers.cpp)
+### 5.4 [Преобразование содержимого контейнеров(std::transform)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter05-Transforming_items_in_containers/transforming_items_in_containers.cpp)
+### 5.5 [Поиск элементов в упорядоченных и неупорядоченных векторах(std::find, std::find_if, std::binary_search, std::lower_bound, std::upper_bound, std::equal_range)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter05-Finding_items/finding_items.cpp)
