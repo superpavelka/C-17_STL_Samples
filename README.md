@@ -39,3 +39,7 @@
 ### 4.4 [Создание комбинированных предикатов через лямбда функции (для комбинирования используется std::logical_and, для вывода std::copy_if + std::istream_iterator, std::ostream_iterator )](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Combination_of_predicates/Combination_of_predicates.cpp)
 ### 4.5 [Последовательный вызов нескольких лямбда функций через единую функцию](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Multicaller/multicaller.cpp)
 ### 4.6 [Реализация transform_if через std::accumulate и вложенные лямбда функции](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Transform_if/transform_if.cpp)
+### 4.7 [Декартово произведение на этапе компиляции(За счет распаковки элементов и вложенных лямбд)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter04-Cartesian_product/cartesian_product.cpp)
+### 5. Основы работы с алгоритмами STL
+### 5.1 [Разбор различных вариантов алгоритма std::copy(std::copy, std::copy_n, std::move, вывод через ostream_iterator)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter05-Copying_items/copying_items.cpp)
+### 5.2 [Сортировки контейнеров(std::sort, std::is_sorted, std::shuffle, std::partial_sort, std::partition, std::random_device, std::mt19937)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter05-Sorting_containers/sorting_containers.cpp)
