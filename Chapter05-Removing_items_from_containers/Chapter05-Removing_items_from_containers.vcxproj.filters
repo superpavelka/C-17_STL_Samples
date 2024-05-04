@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sorting_containers.cpp">
+    <ClCompile Include="removing_items_from_containers.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

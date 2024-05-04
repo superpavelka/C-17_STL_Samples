@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sorting_containers.cpp">
+    <ClCompile Include="finding_items.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

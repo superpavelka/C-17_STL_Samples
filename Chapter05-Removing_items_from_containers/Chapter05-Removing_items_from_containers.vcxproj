@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{64fd34fa-92fa-4c75-885c-5cefc2c03e0c}</ProjectGuid>
-    <RootNamespace>Chapter05Sortingcontainers</RootNamespace>
+    <ProjectGuid>{d11626ff-73fa-4677-a45a-3f82a668928d}</ProjectGuid>
+    <RootNamespace>Chapter05Removingitemsfromcontainers</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="sorting_containers.cpp" />
+    <ClCompile Include="removing_items_from_containers.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
