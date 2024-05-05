@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pattern_search_string.cpp">
+    <ClCompile Include="sampling_vectors.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

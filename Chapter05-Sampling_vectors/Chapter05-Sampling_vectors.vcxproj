@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{34278414-6cd7-4e84-9f13-2f19f4857d3d}</ProjectGuid>
-    <RootNamespace>Chapter05Patternsearchstring</RootNamespace>
+    <ProjectGuid>{64269c66-5917-4b2a-ae60-c72c4417c7f0}</ProjectGuid>
+    <RootNamespace>Chapter05Samplingvectors</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="pattern_search_string.cpp" />
+    <ClCompile Include="sampling_vectors.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
