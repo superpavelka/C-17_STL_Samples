@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="input_permutations.cpp">
+    <ClCompile Include="merge.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
