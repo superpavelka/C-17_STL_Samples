@@ -55,3 +55,7 @@
 ### 6.1 [Реализация класса префиксного дерева на основе std::map и std::trie(std::trie, std::optional, std::reference_wrapper)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter06-Trie/trie.cpp)
 ### 6.2 [Генератор поисковых подсказок с помощью префиксных деревьев(std::trie, ввод из файла через getline+istringstream)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter06-Search_suggestions_generator/search_suggestions_generator.cpp)
 ### 6.3 [Реализация формулы преобразования Фурье с применением численных алгоритмов(std::complex, std::accumulate + std::transform для вычисления преобразования Фурье, std::generate для генерации косиноидальный и прямоугольных сигналов)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter06-Fourier/fourier.cpp)
+### 6.4 [Определение ошибки суммы двух векторов(std::inner_product, std::generate для генерации синусоиды)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter06-Error_sum/error_sum.cpp)
+### 6.5 [Отрисовщик множества Мандельброта(std::complex, std::iota, std::transform, std::accumulate нестандартное использование для вывода)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter06-Mandelbrot/mandelbrot.cpp)
+### 6.6 [Создание собственного алгоритма split(std::copy + std::ostream_iterator для вывода)](https://github.com/superpavelka/C-17_STL_Samples/blob/main/Chapter06-Split/split.cpp)
+
